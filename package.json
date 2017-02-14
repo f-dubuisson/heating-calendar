@@ -1,0 +1,25 @@
+{
+  "author": "fdubuisson <fdubuisson@gmail.com>",
+  "name": "heating-calendar",
+  "description": "Define heating level using a Google calendar",
+  "version": "0.1.0",
+  "keywords": [
+    "automation"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/fdubuisson/heating-calendar.git"
+  },
+  "main": "heating-calendar",
+  "scripts": {
+    "start": "node ./src/main.js"
+  },
+  "engines": {
+    "node": ">=4.2.0"
+  },
+  "dependencies": {
+    "googleapis": "^16.1.0",
+    "google-auth-library": "^0.10.0"
+  },
+  "license": "MIT"
+}
